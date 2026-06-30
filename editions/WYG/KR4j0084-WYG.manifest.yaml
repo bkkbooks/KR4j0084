@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR4j0084/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR4j0084/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 西河詞話
+  date: '2015-08-25 00:50:06.964594'
+  source:
+    repository: kanripo
+    path: KR4j0084
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR4j0084_000-WYG.yaml, hash: 'sha256:a9c1e78b727f7e783c092cef7b46e98b9a40006c0eba7e57c1ddda043274a3c7'}
+  - {seq: 1, filename: KR4j0084_001-WYG.yaml, hash: 'sha256:cdfed525b2f9abf6f1f8950f1062059e343b0f09b7e0f749621f65f2dffd0fb1'}
+  - {seq: 2, filename: KR4j0084_002-WYG.yaml, hash: 'sha256:baeca2892647df851ad9708531a044789ab258befdb246fd3d0c71f543cfab8a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4j0084_000-WYG.markers.yaml, hash: 'sha256:9e9b861e5ccd3653bdfa9e25b851d39ce71a838823e89a39a865efe6c9fbe2b8'}
+  - {seq: 1, role: markers, filename: assets/KR4j0084_001-WYG.markers.yaml, hash: 'sha256:fc93b33266de737c94695ca0fb15d8038ee84d1fbb656c66cecb3154d06c83e2'}
+  - {seq: 2, role: markers, filename: assets/KR4j0084_002-WYG.markers.yaml, hash: 'sha256:e914ec574a4597ee6c6bb139c89b29a81ec91d4ebceb1fa8f739de38082b4ded'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4j0084_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 367
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4j0084_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 5551
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4j0084_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 5552
+  label: 卷二
+  type: section
+  level: 1
+hash: sha256:60e24d440b0c7903c3e4f75ba26462888d88833eab120b453ae4a591826f2a26
